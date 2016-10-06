@@ -38,5 +38,8 @@
     "sinon": "^1.17.6",
     "standard": "^8.3.0",
     "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "lint": "standard"
   }
 }
