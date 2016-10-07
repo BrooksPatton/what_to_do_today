@@ -41,3 +41,20 @@ header .container{
   background-color: #D3E6E3;
   background-size: cover;
 }
+
+.about-blurb {
+  position: absolute;
+  background-color: #ECECEC;
+  width: 15em;
+  height: 6em;
+  top: 250px;
+  left: 100px;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+  border-radius: 15%;
+}
+
+.about-blurb h3 {
+  align-self: center;
+}
