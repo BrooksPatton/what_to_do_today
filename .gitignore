@@ -37,4 +37,6 @@ jspm_packages
 .node_repl_history
 
 client/bundle.js
+client/1.bundle.js
 client/bundle.js.map
+client/1.bundle.js.map

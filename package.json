@@ -4,6 +4,7 @@
     "express": "^4.14.0",
     "lodash": "^4.16.4",
     "node-ensure": "0.0.0",
+    "normalize.css": "^5.0.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
@@ -41,6 +42,7 @@
   },
   "scripts": {
     "lint": "standard",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch"
   }
 }
