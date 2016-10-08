@@ -48,7 +48,7 @@ header .container{
   width: 15em;
   height: 6em;
   top: 250px;
-  left: 100px;
+  left: 20%;
   padding: 10px;
   border: 2px solid black;
   display: flex;
@@ -57,4 +57,44 @@ header .container{
 
 .about-blurb h3 {
   align-self: center;
+}
+
+.signup-form {
+  position: relative;
+  left: 50%;
+  top: 125px;
+  background-color: #ECECEC;
+  width: 25em;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.signup-form h2 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.signup-form div {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.signup-form div * {
+  width: 85%;
+  align-items: stretch;
+}
+
+.signup-form label {
+  width: 9em;
+}
+
+.signup-form input {
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.signup-form input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  background-color: #64C7FE;
 }
