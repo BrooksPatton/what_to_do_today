@@ -9,12 +9,24 @@ const Landing = React.createClass({
     showSignupForm: bool
   },
 
+  createUser (event) {
+    event.preventDefault()
+
+    const newUser = {
+      username: document.getElementById('username').value,
+      email: document.getElementById('email').value,
+      password: document.getElementById('password').value
+    }
+
+    console.log(newUser)
+  },
+
   signupForm (isSignup) {
     if (isSignup) {
       return (
         <div className='signup-form'>
           <h2>Sign Up</h2>
-          <form>
+          <form onSubmit={this.createUser}>
             <div>
               <label htmlFor='username'>Username</label>
               <input type='text' id='username' name='username' />
